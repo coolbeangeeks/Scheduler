@@ -1,8 +1,11 @@
 import React from 'react'
+import Scheduler from './Component/Scheduler'
 
 const App = () => {
   return (
-    <div className='text-2xl'>App</div>
+    <div>
+      <Scheduler/>
+    </div>
   )
 }
 
